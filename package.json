@@ -1,0 +1,32 @@
+{
+  "name": "portmageddon",
+  "version": "0.1.0",
+  "description": "Proxy traffic on a LAN machine as if it came from your localhost",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyle-west/portmageddon.git"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "localhost",
+    "port-forward"
+  ],
+  "author": "kyle-west",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kyle-west/portmageddon/issues"
+  },
+  "bin": {
+    "portmageddon": "./index.js"
+  },
+  "homepage": "https://github.com/kyle-west/portmageddon#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-http-proxy": "^0.5.11"
+  }
+}
