@@ -1,4 +1,4 @@
-# portmageddon
+# [portmageddon](https://www.npmjs.com/package/portmageddon)
 
 This CLI offers a quick way to proxy a web process from a machine on your network as if it were coming from your own localhost. 
 
